@@ -14,7 +14,7 @@ import Navbar from './components/Navbar.jsx'
 
 function App() {
 
-  // New changes
+  // new changes
 
   return (
     <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
