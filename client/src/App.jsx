@@ -11,6 +11,7 @@ import Contact from './pages/Contact.jsx'
 import Product from './pages/Product.jsx'
 
 import Navbar from './components/Navbar.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
 
@@ -30,7 +31,7 @@ function App() {
         <Route path='/place-order'        element={<PlaceOrder/>}   />
         <Route path='/orders'             element={<Orders/>}       />
       </Routes>
-
+      <Footer />
     </div>
   )
 }
