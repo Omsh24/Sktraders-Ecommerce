@@ -16,6 +16,15 @@ a.active hr{
   font-style: normal;
 }
 
+::-webkit-scrollbar{
+  display: none;
+}
+
+.container {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
 @media (max-width:640px){
   a.active{
     background-color: black;
